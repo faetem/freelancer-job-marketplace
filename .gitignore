@@ -1,0 +1,25 @@
+# --- General ---
+.DS_Store
+.env
+.env.local
+*.log
+
+# --- Backend ---
+backend/node_modules/
+backend/dist/
+backend/build/
+backend/.env
+
+# --- Frontend ---
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# --- IDEs and Editors ---
+.vscode/
+.idea/
